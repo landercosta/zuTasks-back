@@ -1,0 +1,27 @@
+{
+  "name": "zutasks-back",
+  "version": "1.0.0",
+  "description": "A different todo list app that changes the way to organize tasks. App made to my specific necessities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landercosta/zuTasks-back.git"
+  },
+  "author": "Lander Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landercosta/zuTasks-back/issues"
+  },
+  "homepage": "https://github.com/landercosta/zuTasks-back#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sqlite3": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
